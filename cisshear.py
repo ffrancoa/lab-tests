@@ -216,7 +216,7 @@ data = data[data["def. hor. [%]"].isin(hor_strain_range)]
 data = data.drop_duplicates(subset=["def. hor. [%]"], keep="first")
 
 print()
-print("* Cuadro final OUTPUT: - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print("IV. Cuadro final OUTPUT: - - - - - - - - - - - - - - - - - - - - - - - - - -")
 print("\n\n{}".format(data))
 
 new_filename = name + ".csv"
@@ -224,7 +224,7 @@ new_filename = name + ".csv"
 data.to_csv(new_filename, index=False)
 
 print()
-print("Data procesada en {}".format(new_filename))
+print("~ Data procesada en {}".format(new_filename))
 
 input()
 
