@@ -131,7 +131,7 @@ else:
     h_o = float(h_o) * 10
 
 h_cons = input(
-    "> Ingrese su deformación por consolidacion en (Δh_cons) \
+    "\n> Ingrese su deformación por consolidacion en (Δh_cons) \
 en mm [-] = "
 )
 
